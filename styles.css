@@ -1,0 +1,164 @@
+/* Réinitialisations et Paramètres Généraux */
+* {
+  box-sizing: border-box;
+}
+
+body,
+ul,
+li,
+a,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* En-tête */
+header {
+  background-color: #003366;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white !important;
+}
+
+header a {
+  color: white;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 20px;
+}
+
+/* Logo et Connexion */
+.logo,
+.login {
+  flex-basis: auto;
+}
+
+.logo img,
+.login a {
+  display: block;
+  width: 40px;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.login {
+  margin-left: auto;
+}
+
+nav a {
+  font-weight: 500;
+}
+
+/* Contenu Principal */
+main {
+  background-color: #f4f4f4;
+  padding: 20px;
+  min-height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+  color: #000000;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 10vh; /* ajustez la hauteur minimale au besoin */
+  padding: 20px 0; /* Centrer le contenu de chaque div */
+}
+/* Titre */
+.title {
+  text-align: center;
+  margin: 0 auto; /* Centrer le titre */
+  color: #000000;
+}
+
+.artist-page {
+  margin-top: 50px;
+  max-width: 1200px; /* ajustez selon votre design */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.artists-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  margin-bottom: 30px;
+}
+/* Équipe */
+
+/* Membre de l'équipe */
+.artists-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrer le contenu de chaque carte horizontalement */
+  background-color: #dddddd;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Image de l'équipe */
+.artists-image {
+  display: flex;
+  align-items: center; /* Centrer les éléments verticalement dans la carte */
+  justify-content: center; /* Centrer les éléments horizontalement dans la carte */
+  margin-bottom: 20px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Image individuelle */
+.image {
+  border-radius: 50%; /* Images rondes */
+  width: 100px; /* Largeur fixe */
+  height: 100px; /* Hauteur fixe */
+}
+
+/* FOOTER */
+footer {
+  background-color: #333333;
+  text-align: right;
+  padding: 10px;
+  color: #dddddd;
+}
+
+/* Réactivité */
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .custom-filters,
+  .artists {
+    max-width: 100%;
+  }
+
+  .artists-container {
+    grid-template-columns: 1fr; /* Une colonne sur les petits écrans */
+  }
+}
