@@ -3,32 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page de l'Artiste</title>
+    <title>Détails de l'artiste</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <img src="img/logo.png" alt="Logo de test" />
+        <div class="logo"><img src="logo.png" alt="Logo" /></div>
         <ul>
           <li><a href="index.html">Programmation</a></li>
           <li><a href="anciensCTF.html">Billeterie</a></li>
           <li><a href="challenges.html">Cashless</a></li>
           <li><a href="veille.html">Infos</a></li>
         </ul>
-        <i class="fas fa-bars"></i>
       </nav>
     </header>
-    <main>
-      <div class="artist-details">
-        <img id="artistImage" src="" alt="Photo de l'artiste" />
-        <h1 id="artistName"></h1>
-        <p id="artistDate"></p>
-        <p id="artistBio"></p>
-      </div>
-    </main>
+    <div class="artist-details">
+      <img id="artistImage" src="" alt="Image de l'artiste" />
+      <h1 id="artistName"></h1>
+      <p id="artistBio"></p>
+      <!-- L'iframe Spotify sera ajouté ici dynamiquement -->
+    </div>
+
     <footer>
-      <!-- Pied de page similaire à index.html -->
+      <p>
+        Trans Musicales © Copyrights<br />
+        All rights reserved 1979-2024
+      </p>
     </footer>
     <script src="assets/js/script.js"></script>
   </body>

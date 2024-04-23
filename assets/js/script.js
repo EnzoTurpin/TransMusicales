@@ -1,15 +1,32 @@
 document.addEventListener("DOMContentLoaded", function () {
   const urlParams = new URLSearchParams(window.location.search);
-  const artistId = urlParams.get("id");
+  const artistId = parseInt(urlParams.get("id"));
 
-  // Supposons que vous ayez une API ou un fichier JSON local pour charger les données
-  fetch(`assets/data/id${artistId}.json`)
+  fetch("assets/data/id.json")
     .then((response) => response.json())
-    .then((artist) => {
-      document.getElementById("artistName").textContent = artist.name;
-      document.getElementById("artistDate").textContent = artist.date;
-      document.getElementById("artistBio").textContent = artist.bio;
-      document.getElementById("artistImage").src = artist.image;
+    .then((artists) => {
+      const artist = artists.find((a) => a.id === artistId);
+      if (artist) {
+        document.getElementById("artistName").textContent = artist.name;
+        document.getElementById("artistBio").textContent = artist.bio;
+        const imgElement = document.getElementById("artistImage");
+        imgElement.src = artist.image;
+        imgElement.alt = "Image de " + artist.name;
+
+        // Générer le lecteur Spotify
+        if (artist.spotifyId) {
+          const spotifyPlayer = document.createElement("iframe");
+          spotifyPlayer.setAttribute(
+            "style",
+            "width:100%; height:380px; border:none;"
+          );
+          spotifyPlayer.setAttribute("allow", "encrypted-media");
+          spotifyPlayer.src = `https://open.spotify.com/embed/artist/${artist.spotifyId}`;
+          document.querySelector(".artist-details").appendChild(spotifyPlayer);
+        }
+      } else {
+        console.log("Artist not found");
+      }
     })
     .catch((error) => console.error("Failed to load artist data:", error));
 });
