@@ -1,47 +1,107 @@
 [
   {
-    "name": "Artiste 1",
+    "id": 1,
+    "name": "NUSANTARA BEAT",
+    "spotifyId": "6iQZl7RmTVznyFCrML933x",
     "bio": "Biographie de l'artiste 1.",
-    "image": "Bob.png"
+    "image": "img/nusantara_beat.jpg"
   },
   {
-    "name": "Artiste 2",
+    "id": 2,
+    "name": "LA BRUCELLE",
+    "spotifyId": "spotify-artist-id-here",
     "bio": "Biographie de l'artiste 2.",
-    "image": "Bob.png"
+    "image": "img/la_brucelle.jpg"
   },
   {
-    "name": "Artiste 3",
+    "id": 3,
+    "name": "YALLA MIKU",
+    "spotifyId": "0WL2IEauLNxUTGYdAFv0gb",
     "bio": "Biographie de l'artiste 3.",
-    "image": "path/to/image.jpg"
+    "image": "img/yalla_miku.jpg"
   },
   {
-    "name": "Artiste 4",
+    "id": 4,
+    "name": "ANNA ERHARD",
+    "spotifyId": "11OTiI6xYGpLxS3aoVkI9e",
     "bio": "Biographie de l'artiste 4.",
-    "image": "path/to/image.jpg"
+    "image": "img/anna_erhard.jpg"
   },
   {
-    "name": "Artiste 5",
+    "id": 5,
+    "name": "SEXTILE",
+    "spotifyId": "4ReoJ2faKfdjI0plizlL56",
     "bio": "Biographie de l'artiste 5.",
-    "image": "path/to/image.jpg"
+    "image": "img/sextile.jpg"
   },
   {
-    "name": "Artiste 6",
+    "id": 6,
+    "name": "YAMÉ",
+    "spotifyId": "0wiCfDEHaEcPkKZOi7Nivl",
     "bio": "Biographie de l'artiste 6.",
-    "image": "path/to/image.jpg"
+    "image": "img/yame.jpg"
   },
   {
-    "name": "Artiste 7",
+    "id": 7,
+    "name": "CONCOMBRE",
+    "spotifyId": "spotify-artist-id-here",
     "bio": "Biographie de l'artiste 7.",
-    "image": "path/to/image.jpg"
+    "image": "img/concombre.jpg"
   },
   {
-    "name": "Artiste 8",
+    "id": 8,
+    "name": "DALTON",
+    "spotifyId": "3VDylaT53QzIVrgDoj5UXO",
     "bio": "Biographie de l'artiste 8.",
-    "image": "path/to/image.jpg"
+    "image": "img/dalton.jpg"
   },
   {
-    "name": "Artiste 9",
+    "id": 9,
+    "name": "GLOWAL",
+    "spotifyId": "4XCU9tk7hogxz1SRTvVXLJ",
     "bio": "Biographie de l'artiste 9.",
-    "image": "path/to/image.jpg"
+    "image": "img/glowal.jpg"
+  },
+  {
+    "id": 10,
+    "name": "CITRON",
+    "spotifyId": "6ngQRyIRxhheeUKfHE5okl",
+    "bio": "Biographie de l'artiste 10.",
+    "image": "img/citron.jpg"
+  },
+  {
+    "id": 11,
+    "name": "NUSHA",
+    "spotifyId": "5jsGnMw1mnU4FfhhcXUR6Q",
+    "bio": "Biographie de l'artiste 11.",
+    "image": "img/nusha.jpg"
+  },
+  {
+    "id": 12,
+    "name": "RONI",
+    "spotifyId": "3ACB6pQFKxf7vsmm5Tl39g",
+    "bio": "Biographie de l'artiste 12.",
+    "image": "img/roni.jpg"
+  },
+  {
+    "id": 13,
+    "name": "CERYS HAFANA",
+    "spotifyId": "1beEaumaYcJ3i3MsG1Nj16",
+    "bio": "Biographie de l'artiste 13.",
+    "image": "img/cerys_hafana.jpg"
+  },
+  {
+    "id": 14,
+    "name": "RAÜL REFREE",
+    "spotifyId": "5TPIp7TiaJOVn2sZ4s4JDy",
+    "bio": "Biographie de l'artiste 14.",
+    "image": "img/raul_refree.jpg"
+  },
+  {
+    "id": 15,
+    "name": "HANAA OUASSIM",
+    "spotifyId": "1BVuKOavITzFduHv4SqrKt",
+    "bio": "Biographie de l'artiste 15.",
+    "image": "img/hanaa_ouassim.jpg"
   }
 ]

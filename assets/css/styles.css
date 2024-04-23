@@ -36,9 +36,10 @@ nav {
 
 nav ul {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   flex-grow: 1;
   gap: 20px;
+  font-size: 15px;
 }
 
 /* Logo et Connexion */
@@ -172,6 +173,42 @@ main {
   border-radius: 10px;
 }
 
+<<<<<<< HEAD
+=======
+.artist-details {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.artist-details img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#artistName {
+  color: #333;
+  margin-top: 0.5rem;
+}
+
+#artistBio {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#artistTopTracks div {
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #e9e9e9;
+  border-radius: 5px;
+}
+
+>>>>>>> f9454c49beee3a45807d88f8f4ed46c375988f0b
 .text-bottom {
   width: 100%;
   margin-top: auto;
