@@ -21,13 +21,9 @@ p {
 
 /* En-tête */
 header {
-  background-color: #003366;
+  background-color: #8b4513; /* Marron */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white !important;
-}
-
-header a {
-  color: white;
 }
 
 /* Navigation */
@@ -71,14 +67,14 @@ nav a {
 
 /* Contenu Principal */
 main {
-  background-color: #f4f4f4;
+  background-color: #f5f5dc; /* Beige */
   padding: 20px;
   min-height: 80vh;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   align-items: flex-start;
-  color: #000000;
+  color: #9bbee9; /* Bleu */
 }
 
 .content {
@@ -88,6 +84,7 @@ main {
   min-height: 10vh;
   padding: 20px 0;
 }
+
 /* Titre */
 .title {
   text-align: center;
@@ -170,10 +167,11 @@ main {
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-  background-color: #f4f4f4;
+  background-color: #f5f5dc; /* Beige */
   padding: 20px;
   border-radius: 10px;
 }
+
 .text-bottom {
   width: 100%;
   margin-top: auto;
@@ -182,7 +180,7 @@ main {
 
 /* FOOTER */
 footer {
-  background-color: #333333;
+  background-color: #8b4513; /* Marron */
   text-align: right;
   padding: 10px;
   color: #dddddd;
@@ -196,7 +194,7 @@ footer {
 
   .custom-filters,
   .artists {
-    max-width: 100%;
+    max-width: 100%; /* Utilise toute la largeur disponible */
   }
 
   .artists-container {
