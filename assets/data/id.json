@@ -3,105 +3,270 @@
     "id": 1,
     "name": "NUSANTARA BEAT",
     "spotifyId": "6iQZl7RmTVznyFCrML933x",
-    "bio": "Biographie de l'artiste 1.",
+    "performances": [
+      {
+        "date": "Mercredi 06 décembre",
+        "time": "22:45 → 23:35",
+        "scene": "UBU"
+      }
+    ],
+    "bio": "Basé à Amsterdam, le sextet Nusantara Beat comprend des membres de Jungle By Night, POM, The Mysterons, Altın Gün et Surf Aid-Kit. Inspiré par la musique traditionnelle indonésienne, le groupe renouvelle des classiques balinais avec un twist psychédélique, dans la veine d’Altin Gün qui a revitalisé la pop-rock turque des années 1970. 'Nusantara' signifiant 'archipel' en indonésien, leur musique fusionne percussions gamelan, guitare surf et basses funky, unis par un groove captivant et la voix lumineuse de Megan de Klerk.",
     "image": "img/nusantara_beat.jpg"
   },
   {
     "id": 2,
     "name": "LA BRUCELLE",
     "spotifyId": "spotify-artist-id-here",
-    "bio": "Biographie de l'artiste 2.",
+    "performances": [
+      {
+        "date": "Mercredi 06 décembre",
+        "time": "01:05 → 01:45",
+        "scene": "UBU"
+      }
+    ],
+    "bio": "Lors d'une soirée Bongo Joe, La Brucelle animera l'Ubu, mixant entre les concerts et en fin de soirée. Actif depuis cinq ans chez Bongo Joe, il mixe des grooves, des bangers électroniques et des trésors du monde. Ses playlists incluent des nouveautés du label, des raretés, et ses morceaux favoris, allant de King Gizzard à Rosalia, couvrant ainsi un large spectre musical qui reflète l'essence de Bongo Joe.",
     "image": "img/la_brucelle.jpg"
   },
   {
     "id": 3,
     "name": "YALLA MIKU",
     "spotifyId": "0WL2IEauLNxUTGYdAFv0gb",
-    "bio": "Biographie de l'artiste 3.",
+    "performances": [
+      {
+        "date": "Mercredi 06 décembre",
+        "time": "21:15 → 22:15",
+        "scene": "UBU"
+      }
+    ],
+    "bio": "Yalla Miku incarne l'esprit punk et interculturel du label Bongo Joe. Fondé par Cyril Yeterian et Cyril Bondi de Cyril Cyril, le groupe unit la scène musicale genevoise, incluant Hyperculte avec Simone Aubert et Vincent Bertholet. Ils sont rejoints par Anouar Baouna, Samuel Ades, et Ali Bouchaki, immigrants musiciens. Leur musique mêle influences gnawa, est-africaine, krautrock et electro-trance, visant un monde sans frontières géographiques.",
     "image": "img/yalla_miku.jpg"
   },
   {
     "id": 4,
     "name": "ANNA ERHARD",
     "spotifyId": "11OTiI6xYGpLxS3aoVkI9e",
-    "bio": "Biographie de l'artiste 4.",
+    "performances": [
+      {
+        "date": "Jeudi 07 décembre",
+        "time": "16:30 → 17:15",
+        "scene": "UBU"
+      }
+    ],
+    "bio": "Anna Erhard, musicienne suisse basée à Berlin, s'est détachée de son groupe folk Serafyn pour se lancer dans une carrière solo pop teintée d'humour pince-sans-rire. Ses chansons, rappelant Courtney Barnett et les premiers temps de Beck, mélangent guitares distordues et claviers lo-fi. Avec nonchalance, elle interprète des textes malicieux qui explorent ses tracas quotidiens et sa passion pour le camping.",
     "image": "img/anna_erhard.jpg"
   },
   {
     "id": 5,
     "name": "SEXTILE",
     "spotifyId": "4ReoJ2faKfdjI0plizlL56",
-    "bio": "Biographie de l'artiste 5.",
+    "performances": [
+      {
+        "date": "Jeudi 07 décembre",
+        "time": "01:50 → 02:40",
+        "scene": "PARC EXPO - HALL 8"
+      }
+    ],
+    "bio": "Nommée en référence à un terme astrologique symbolisant l'harmonie entre des éléments opposés, la formation de Los Angeles, menée par Brady Keehn et Melissa Scaduto, fusionne des styles divergents. Keehn, vocaliste issu de la scène breakbeat hardcore et des raves britanniques des années 90, et Scaduto, guitariste ancienne disquaire experte en punk, post-punk et goth des années 80, produisent ensemble un rock électronique sombre et dansant. Leur musique représente une alchimie parfaite entre Suicide, Bauhaus, et The Prodigy.",
     "image": "img/sextile.jpg"
   },
   {
     "id": 6,
     "name": "YAMÉ",
     "spotifyId": "0wiCfDEHaEcPkKZOi7Nivl",
-    "bio": "Biographie de l'artiste 6.",
+    "performances": [
+      {
+        "date": "Mercredi 06 décembre",
+        "time": "21:15 → 22:15",
+        "scene": "L’AIRE LIBRE"
+      },
+      {
+        "date": "Jeudi 07 décembre        ",
+        "time": "22:00 → 23:00",
+        "scene": "L’AIRE LIBRE"
+      },
+      {
+        "date": "vendredi 08 décembre",
+        "time": "22:00 → 23:00",
+        "scene": "L’AIRE LIBRE"
+      },
+      {
+        "date": "Samedi 09 décembre",
+        "time": "22:00 → 23:00",
+        "scene": "L’AIRE LIBRE"
+      },
+      {
+        "date": "Dimanche 10 décembre",
+        "time": "18:20 → 19:20",
+        "scene": "L’AIRE LIBRE"
+      }
+    ],
+    "bio": "Yamê, jeune artiste français ayant grandi partiellement au Cameroun, puise son inspiration dans un riche héritage musical. Influencé par le rap français, le jazz, le gospel, le soul, le rock, la musique classique, et surtout les musiques africaines grâce à son père, l’artiste sénégalo-camerounais Ngoup’Emanty, il mélange les musiques traditionnelles africaines et le soul makossa. Après s'être perfectionné dans les jam sessions parisiennes, Yamê se lance en solo en 2020, créant un hip hop hybride enrichi de jazz, gospel, soul, et trap. Au-delà des clichés de 'musique urbaine', il vise à réinventer le rap avec des sons organiques et une voix inventive, explorant ainsi de nouveaux horizons musicaux.",
     "image": "img/yame.jpg"
   },
   {
     "id": 7,
     "name": "CONCOMBRE",
     "spotifyId": "spotify-artist-id-here",
-    "bio": "Biographie de l'artiste 7.",
+    "performances": [
+      {
+        "date": "Vendredi 08 décembre",
+        "time": "05:40 → 06:30",
+        "scene": "PARC EXPO - HALL 8"
+      }
+    ],
+    "bio": "Le commandant Denis Poulain (batterie, Kind Of Guru, Trans 2021), accompagné de Joris Prigent (clavier, Tago Mago, Trans 2021) et Fabien Cariou (saxophone, Güz II, Trans 2010), embarque pour un voyage musical aux frontières du jazz, du rock et de l'électro. À bord de leur concombre volant, une navette spatiale sonore, ils tracent une trajectoire de tourbillons fiévreux et de contemplations cosmiques. Ce trio rennais crée un univers décalé, parfait pour une bande originale d'un film de science-fiction culte et kitsch, tel que 'Plan Nine From Outer Space', garantissant une expérience loin de toute léthargie.",
     "image": "img/concombre.jpg"
   },
   {
     "id": 8,
     "name": "DALTON",
     "spotifyId": "3VDylaT53QzIVrgDoj5UXO",
-    "bio": "Biographie de l'artiste 8.",
+    "performances": [
+      {
+        "date": "Vendredi 08 décembre",
+        "time": "19:30 → 20:10",
+        "scene": "LE LIBERTÉ"
+      }
+    ],
+    "bio": "Dans les années 80, le groupe Les Daltons secouait la scène alternative avec son punk garage avant de tomber dans l'oubli suite à diverses mésaventures. Reformé dans les années 2010 sous le nom simplifié de Dalton, le groupe a fait un retour en 2023 avec un album arty et épuré, marqué par des guitares finement travaillées. Emmené par Patrick Williams, un dandy au style parlé-chanté original et à l'humour absurde, le trio promet des performances scéniques dynamiques et colorées.",
     "image": "img/dalton.jpg"
   },
   {
     "id": 9,
     "name": "GLOWAL",
     "spotifyId": "4XCU9tk7hogxz1SRTvVXLJ",
-    "bio": "Biographie de l'artiste 9.",
+    "performances": [
+      {
+        "date": "Vendredi 08 décembre",
+        "time": "00:05 → 01:35",
+        "scene": "PARC EXPO - HALL 9"
+      }
+    ],
+    "bio": "Assister à un set de Glowal, le duo italien de techno mélodique, c'est découvrir une alchimie unique entre deux DJs et producteurs, Fabio Giannelli et Alessandro Gasperini, qui collaborent étroitement. Contrairement à un back-to-back traditionnel, ils partagent un casque, sélectionnent et mixent ensemble, créant une expérience harmonieuse. Reconnus pour leur attention portée autant aux rythmes qu'aux mélodies, leurs compositions séduisent autant les amateurs de bonne écoute que les danseurs, et ont été saluées par des figures telles que Dixon, Solomun ou encore le label Afterlife.",
     "image": "img/glowal.jpg"
   },
   {
     "id": 10,
     "name": "CITRON",
     "spotifyId": "6ngQRyIRxhheeUKfHE5okl",
-    "bio": "Biographie de l'artiste 10.",
+    "performances": [
+      {
+        "date": "Samedi 09 décembre",
+        "time": "16:00 → 16:40",
+        "scene": "LE LIBERTÉ"
+      }
+    ],
+    "bio": "Zoé Sjollema et son frère Augustin, figures de la scène expérimentale genevoise, ont lancé un projet musical minimaliste durant le confinement, qui a rapidement capté l'attention du label Bongo Joe. Leur duo offre une 'pop de chambre' élaborée avec un ensemble réduit d'instruments : quelques synthétiseurs, une boîte à rythmes, une guitare discrète, un thérémine et un violon. La voix de Zoé, lumineuse, porte des mélodies synthétiques qui rappellent les ambiances envoûtantes d'Angelo Badalamenti ainsi que l'univers poétique et singulier de Brigitte Fontaine & Areski.",
     "image": "img/citron.jpg"
   },
   {
     "id": 11,
     "name": "NUSHA",
     "spotifyId": "5jsGnMw1mnU4FfhhcXUR6Q",
-    "bio": "Biographie de l'artiste 11.",
+    "performances": [
+      {
+        "date": "Samedi 09 décembre",
+        "time": "01:20 → 02:50",
+        "scene": "PARC EXPO - HALL 9"
+      }
+    ],
+    "bio": "Active sur la scène électronique dès 2007, Nusha diffuse depuis Bucarest une techno puissante et percussive, brodée de mélodies hypnotiques et de kicks baraqués, et parfois agrémentée de ses vocaux, des mantras lumineux délivrés en spoken-word. Un « chaos positif » présent dans ses morceaux comme dans ses sets, et qu’elle compte bien essaimer partout où elle passe, du club Egg London où elle est DJ résidente jusqu’aux Trans Musicales.",
     "image": "img/nusha.jpg"
   },
   {
     "id": 12,
     "name": "RONI",
     "spotifyId": "3ACB6pQFKxf7vsmm5Tl39g",
-    "bio": "Biographie de l'artiste 12.",
+    "performances": [
+      {
+        "date": "Samedi 09 décembre",
+        "time": "03:50 → 05:20",
+        "scene": "PARC EXPO - HALL 9"
+      }
+    ],
+    "bio": "Française d’origine malaisienne, la DJ et productrice RONI est avant tout influencée par le mouvement rave britannique des années quatre-vingt-dix. Naviguant entre 140 et 160 BPM (donc des rythmes plutôt rapides), les sets de RONI sont un mélange de breaks, de bass music, de techno et de jungle. Elle explore ainsi la variété de sons de la culture électronique d’aujourd’hui, tout en valorisant de nouveaux talents à travers les productions de son label Nehza Records.",
     "image": "img/roni.jpg"
   },
   {
     "id": 13,
     "name": "CERYS HAFANA",
     "spotifyId": "1beEaumaYcJ3i3MsG1Nj16",
-    "bio": "Biographie de l'artiste 13.",
+    "performances": [
+      {
+        "date": "Vendredi 08 décembre",
+        "time": "20:00 → 20:45",
+        "scene": "OPÉRA DE RENNES"
+      },
+      {
+        "date": "Samedi 09 décembre",
+        "time": "20:00 → 20:45",
+        "scene": "OPÉRA DE RENNES"
+      },
+      {
+        "date": "Dimanche 10 décembre",
+        "time": "20:00 → 20:45",
+        "scene": "OPÉRA DE RENNES"
+      }
+    ],
+    "bio": "La harpe triple est à l’image des paysages de bout du monde du Pays de Galles dont elle est l’instrument national : majestueuse et intimidante. La musicienne et compositrice Cerys Hafana, originaire de la petite ville de Machynlleth, revisite le répertoire traditionnel en faisant scintiller les trois rangées de cordes du vénérable instrument (qui en comporte 92 !). L’artiste utilise aussi son impressionnant compagnon comme un outil de percussion afin d’en tirer une pulsation bourdonnante. Dentelles de cristal ou cascades tumultueuses, les airs de Cerys Hafana sont rehaussés d’un chant de soprano aérien en gallois qui évoque une incantation magique et merveilleuse.",
     "image": "img/cerys_hafana.jpg"
   },
   {
     "id": 14,
     "name": "RAÜL REFREE",
     "spotifyId": "5TPIp7TiaJOVn2sZ4s4JDy",
-    "bio": "Biographie de l'artiste 14.",
+    "performances": [
+      {
+        "date": "Vendredi 08 décembre",
+        "time": "21:15 → 22:30",
+        "scene": "OPÉRA DE RENNES"
+      },
+      {
+        "date": "Samedi 09 décembre",
+        "time": "21:15 → 22:30",
+        "scene": "OPÉRA DE RENNES"
+      },
+      {
+        "date": "Dimanche 10 décembre",
+        "time": "21:15 → 22:30",
+        "scene": "OPÉRA DE RENNES"
+      }
+    ],
+    "bio": "Raül Refree, un artiste barcelonais aux racines dans le rock underground des années 1990, est devenu une figure emblématique des Trans Musicales pour son mélange de musiques populaires, traditionnelles, classiques et avant-gardistes. Son projet récent, 'el espacio entre', inspiré de sa bande-son pour le film 'La aldea maldita' (1930), explore la perte et le vide entre le passé et le présent avec des compositions riches utilisant guitares, piano, luth et marimba. L'œuvre mêle également des voix traitées, notamment un madrigal de Monteverdi, pour une expérience musicale intime et atmosphérique.",
     "image": "img/raul_refree.jpg"
   },
   {
     "id": 15,
     "name": "HANAA OUASSIM",
     "spotifyId": "1BVuKOavITzFduHv4SqrKt",
-    "bio": "Biographie de l'artiste 15.",
+    "performances": [
+      {
+        "date": "Mercredi 06 décembre",
+        "time": "20:45 → 21:30",
+        "scene": "L’AIRE LIBRE"
+      },
+      {
+        "date": "Jeudi 07 décembre",
+        "time": "20:45 → 21:30",
+        "scene": "L’AIRE LIBRE"
+      },
+      {
+        "date": "Vendredi 08 décembre",
+        "time": "20:45 → 21:30",
+        "scene": "L’AIRE LIBRE"
+      },
+      {
+        "date": "Samedi 09 décembre",
+        "time": "20:45 → 21:30",
+        "scene": "L’AIRE LIBRE"
+      },
+      {
+        "date": "Dimanche 10 décembre",
+        "time": "17:15 → 18:00",
+        "scene": "L’AIRE LIBRE"
+      }
+    ],
+    "bio": "Hanaa Ouassim, artiste autodidacte marocaine, a évolué des percussions traditionnelles des mariages de son enfance à des compositions électroniques sophistiquées. Elle s'est produite en première partie de Flavien Berger et Zaho de Sagazan, et a collaboré en tant que chanteuse avec Acid Arab et Léonie Pernet. En 2023, elle ajoute à son répertoire la composition de la bande originale du documentaire 'Raqqa, sur les traces des enfants de Daesh'. Hanaa présentera son premier album, 'La Vie de Star', aux Trans Musicales. L'album, un mélange de chant en français et en arabe, de beats électroniques, de darbouka traditionnelle et de sons synthétiques, sera interprété à L’Aire Libre dans un format chant/percussions/claviers.",
     "image": "img/hanaa_ouassim.jpg"
   }
 ]

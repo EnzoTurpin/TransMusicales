@@ -8,12 +8,24 @@ document.addEventListener("DOMContentLoaded", function () {
       const artist = artists.find((a) => a.id === artistId);
       if (artist) {
         document.getElementById("artistName").textContent = artist.name;
-        document.getElementById("artistBio").textContent = artist.bio;
         const imgElement = document.getElementById("artistImage");
         imgElement.src = artist.image;
         imgElement.alt = "Image de " + artist.name;
+        document.getElementById("artistBio").textContent = artist.bio;
 
-        // Générer le lecteur Spotify
+        // Afficher les performances multiples, maintenant avec les dates
+        const performancesContainer = document.getElementById("performances");
+        performancesContainer.innerHTML = ""; // Nettoyer les anciennes performances s'il y en a
+        artist.performances.forEach((performance) => {
+          const performanceElement = document.createElement("div");
+          performanceElement.innerHTML = `
+            <p>Date: <strong>${performance.date}</strong></p>
+            <p>Scène: <strong>${performance.scene}</strong></p>
+            <p>Horaire: <strong>${performance.time}</strong></p>`;
+          performancesContainer.appendChild(performanceElement);
+        });
+
+        // Générer le lecteur Spotify s'il y a un ID Spotify
         if (artist.spotifyId) {
           const spotifyPlayer = document.createElement("iframe");
           spotifyPlayer.setAttribute(
