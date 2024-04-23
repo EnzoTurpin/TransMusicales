@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Artiste 1",
+    "bio": "Biographie de l'artiste 1.",
+    "image": "Bob.png"
+  },
+  {
+    "name": "Artiste 2",
+    "bio": "Biographie de l'artiste 2.",
+    "image": "Bob.png"
+  },
+  {
+    "name": "Artiste 3",
+    "bio": "Biographie de l'artiste 3.",
+    "image": "path/to/image.jpg"
+  },
+  {
+    "name": "Artiste 4",
+    "bio": "Biographie de l'artiste 4.",
+    "image": "path/to/image.jpg"
+  },
+  {
+    "name": "Artiste 5",
+    "bio": "Biographie de l'artiste 5.",
+    "image": "path/to/image.jpg"
+  },
+  {
+    "name": "Artiste 6",
+    "bio": "Biographie de l'artiste 6.",
+    "image": "path/to/image.jpg"
+  },
+  {
+    "name": "Artiste 7",
+    "bio": "Biographie de l'artiste 7.",
+    "image": "path/to/image.jpg"
+  },
+  {
+    "name": "Artiste 8",
+    "bio": "Biographie de l'artiste 8.",
+    "image": "path/to/image.jpg"
+  },
+  {
+    "name": "Artiste 9",
+    "bio": "Biographie de l'artiste 9.",
+    "image": "path/to/image.jpg"
+  }
+]
