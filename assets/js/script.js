@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const artistId = urlParams.get("id");
 
   // Supposons que vous ayez une API ou un fichier JSON local pour charger les données
-  fetch(`path/to/your/data/artist${artistId}.json`)
+  fetch(`assets/data/id${artistId}.json`)
     .then((response) => response.json())
     .then((artist) => {
       document.getElementById("artistName").textContent = artist.name;
