@@ -106,7 +106,6 @@ main {
 .artists-member {
   width: 300px;
   height: 300px;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -204,13 +203,25 @@ main {
   width: 300px; /* Largeur fixe pour l'image */
   height: auto;
   border-radius: 10px;
+  margin-bottom: 50px;
 }
 
 .artist-bio {
   flex-grow: 1; /* Permet à la bio de prendre l'espace restant */
   font-size: 1rem;
   color: #666;
+  margin-bottom: 50px;
+  margin-left: 20px;
 }
+
+.performance {
+  margin-bottom: 20px; /* Ajoute un espace de 20px en bas de chaque bloc de performance */
+  margin-left: 20px;
+  padding: 10px;
+  background-color: #f0f0f0; /* Un léger fond gris pour distinguer les blocs */
+  border-radius: 5px; /* Bords arrondis pour l'esthétique */
+}
+
 /* FOOTER */
 footer {
   background-color: #333333;
