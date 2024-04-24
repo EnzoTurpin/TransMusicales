@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <!-- Métadonnées de base pour le bon encodage et la réactivité sur mobile -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Détails de l'artiste</title>
+    <!-- Lien vers le fichier CSS externe pour styliser la page -->
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
+    <!-- En-tête de la page avec navigation -->
     <header>
       <nav>
-        <div class="logo"><img src="logo.png" alt="Logo" /></div>
+        <!-- Logo de l'organisation ou de l'événement -->
+        <div class="logo">
+          <img src="logo.png" alt="Logo" />
+        </div>
+        <!-- Barre de navigation avec liens vers d'autres pages du site -->
         <ul>
           <li><a href="index.html">Programmation</a></li>
           <li><a href="anciensCTF.html">Billeterie</a></li>
@@ -18,22 +25,29 @@
         </ul>
       </nav>
     </header>
+    <!-- Section principale pour les détails de l'artiste -->
     <div class="artist-details">
+      <!-- Titre de la section, nom de l'artiste -->
       <h1 id="artistName" class="artist-title"></h1>
+      <!-- Contenu détaillé de l'artiste incluant image et biographie -->
       <div class="artist-content">
         <img id="artistImage" src="" alt="Image de l'artiste" />
         <div>
+          <!-- Conteneur pour les performances ou événements à venir liés à l'artiste -->
           <div id="performances"></div>
+          <!-- Biographie de l'artiste -->
           <p id="artistBio" class="artist-bio"></p>
         </div>
       </div>
     </div>
+    <!-- Pied de page avec droits d'auteur et informations de copyright -->
     <footer>
       <p>
         Trans Musicales © Copyrights<br />
         All rights reserved 1979-2024
       </p>
     </footer>
+    <!-- Script JavaScript pour fonctionnalités additionnelles -->
     <script src="assets/js/script.js"></script>
   </body>
 </html>

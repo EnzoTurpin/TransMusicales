@@ -1,10 +1,12 @@
+/* Importation de la famille de polices Roboto depuis Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-/* Réinitialisations et Paramètres Généraux */
+/* Réinitialisations CSS et paramètres de base pour tous les éléments */
 * {
   box-sizing: border-box;
 }
 
+/* Réinitialisation des marges, du padding, de la liste des styles et de la décoration du texte pour certains éléments, et définition de la police de base */
 body,
 ul,
 li,
@@ -19,18 +21,19 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
-/* En-tête */
+/* Styles pour l'en-tête, y compris couleur de fond et paramètres de police */
 header {
-  background-color: #003366;
+  background-color: #8b4513;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white !important;
 }
 
+/* Assure que les liens dans l'en-tête sont blancs */
 header a {
   color: white;
 }
 
-/* Navigation */
+/* Styles pour la barre de navigation, utilisant flexbox pour l'espacement et l'alignement */
 nav {
   display: flex;
   justify-content: space-between;
@@ -38,6 +41,7 @@ nav {
   padding: 10px;
 }
 
+/* Styles pour la liste de navigation, alignée à droite avec un espacement entre les éléments */
 nav ul {
   display: flex;
   justify-content: right;
@@ -46,33 +50,30 @@ nav ul {
   font-size: 15px;
 }
 
-/* Logo et Connexion */
-.logo,
-.login {
+/* Configuration de base pour les éléments logo, flex-basis pour l'adaptation automatique */
+.logo {
   flex-basis: auto;
 }
 
-.logo img,
-.login a {
+/* Styles spécifiques pour les images dans le logo et le lien de connexion */
+.logo img {
   display: block;
   width: 40px;
 }
 
+/* Marges pour le logo et le bloc de connexion pour l'alignement */
 .logo {
   margin-right: auto;
 }
 
-.login {
-  margin-left: auto;
-}
-
+/* Style du poids de la police pour les liens de navigation */
 nav a {
   font-weight: 500;
 }
 
-/* Contenu Principal */
+/* Configuration du contenu principal, y compris couleur de fond, padding, et utilisation de flexbox */
 main {
-  background-color: #f4f4f4;
+  background-color: #f5f5dc; /* Beige */
   padding: 20px;
   min-height: 80vh;
   display: flex;
@@ -82,6 +83,7 @@ main {
   color: #000000;
 }
 
+/* Conteneur de contenu avec styles de colonne, centré et avec une hauteur minimale */
 .content {
   display: flex;
   flex-direction: column;
@@ -89,13 +91,15 @@ main {
   min-height: 10vh;
   padding: 20px 0;
 }
-/* Titre */
+
+/* Styles pour les titres, centrés avec couleur spécifique */
 .title {
   text-align: center;
   margin: 0 auto;
   color: #000000;
 }
 
+/* Configuration de la page des artistes avec un centrage automatique et une largeur maximale */
 .artist-page {
   margin-top: 50px;
   max-width: 1200px;
@@ -103,6 +107,7 @@ main {
   margin-right: auto;
 }
 
+/* Styles pour les membres des artistes, y compris la taille, la couleur de fond, et les bordures */
 .artists-member {
   width: 300px;
   height: 300px;
@@ -114,6 +119,7 @@ main {
   border-radius: 10px;
 }
 
+/* Configuration de la grille pour les conteneurs d'artistes, avec des colonnes répétées et des espacements */
 .artists-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -125,112 +131,124 @@ main {
   margin-bottom: 30px;
 }
 
+/* Conteneur pour images avec positionnement relatif pour superposition de texte */
 .image-container {
   position: relative;
-  width: 100%; /* ou une largeur fixe si nécessaire */
-  height: 100%; /* ou une hauteur fixe si nécessaire */
+  width: 100%;
+  height: 100%;
 }
 
+/* Styles pour les images, ajustement et bordures arrondies */
 .image {
   width: 100%;
   height: 100%;
-  border-radius: 5%; /* pour maintenir les styles existants */
-  object-fit: cover; /* assure que l'image couvre entièrement le conteneur */
+  border-radius: 5%;
+  object-fit: cover;
 }
 
+/* Superposition de texte avec gradient et styles de transition pour l'opacité et le déplacement */
 .text-overlay {
   position: absolute;
-  bottom: 0; /* Positionne le texte en bas du conteneur */
+  bottom: 0;
   left: 0;
-  width: 100%; /* Le texte couvre toute la largeur de l'image */
-  padding: 10px; /* Ajoute un peu d'espacement autour du texte */
-  text-align: center; /* Centre le texte horizontalement */
-  color: white; /* Assure que le texte est lisible */
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color: white;
   background: linear-gradient(
     to top,
     rgba(0, 0, 0, 0.7) 0%,
     rgba(0, 0, 0, 0) 100%
-  ); /* Dégradé de noir vers transparent */
+  );
 }
 
+/* Styles de transition pour le texte lors du survol */
 .text-overlay p {
-  opacity: 0; /* Cache le texte par défaut */
-  transform: translateY(20px); /* Commence légèrement décalé vers le bas */
-  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Transition pour l'opacité et la transformation */
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
+/* Modification de l'opacité et de la position du texte lors du survol */
 .artists-image:hover .text-overlay p {
-  opacity: 1; /* Rend le texte visible lors du survol */
-  transform: translateY(0); /* Remet le texte à sa position initiale */
+  opacity: 1;
+  transform: translateY(0);
 }
 
-/* Image de l'équipe */
+/* Styles pour les images de l'équipe, y compris la couleur de fond, l'espacement, et les bordures arrondies */
 .artists-image {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-  background-color: #f4f4f4;
+  background-color: #f5f5dc; /* Beige */
   padding: 20px;
   border-radius: 10px;
 }
 
+/* Détails de l'artiste avec configuration de flexbox et styles de bordure */
 .artist-details {
   max-width: 1200px;
   margin: 20px auto;
   padding: 20px;
-  background: #fff;
+  background: #f5f5dc;
   border: 1px solid #ddd;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
 }
 
+/* Espacement pour le titre de l'artiste */
 .artist-title {
   margin-bottom: 20px;
 }
 
+/* Styles pour le contenu de l'artiste avec alignement et configuration flex */
 .artist-content {
   display: flex;
-  align-items: flex-start; /* Alignement des éléments en haut */
+  align-items: flex-start;
 }
 
+/* Marges pour le conteneur de l'image dans les détails de l'artiste */
 .image-container {
-  margin-right: 20px; /* Espace entre l'image et la bio */
+  margin-right: 20px;
 }
 
+/* Styles spécifiques pour l'image de l'artiste, y compris la taille et les marges */
 #artistImage {
-  width: 300px; /* Largeur fixe pour l'image */
+  width: 300px;
   height: auto;
   border-radius: 10px;
   margin-bottom: 50px;
 }
 
+/* Biographie de l'artiste avec styles de texte et marges */
 .artist-bio {
-  flex-grow: 1; /* Permet à la bio de prendre l'espace restant */
+  flex-grow: 1;
   font-size: 1rem;
   color: #666;
   margin-bottom: 50px;
   margin-left: 20px;
 }
 
+/* Styles pour les performances avec couleur de fond et espacement */
 .performance {
-  margin-bottom: 20px; /* Ajoute un espace de 20px en bas de chaque bloc de performance */
+  margin-bottom: 20px;
   margin-left: 20px;
   padding: 10px;
-  background-color: #f0f0f0; /* Un léger fond gris pour distinguer les blocs */
-  border-radius: 5px; /* Bords arrondis pour l'esthétique */
+  background-color: #f0f0f0;
+  border-radius: 5px;
 }
 
-/* FOOTER */
+/* Styles pour le pied de page, y compris couleur de fond, alignement du texte et couleur du texte */
 footer {
-  background-color: #333333;
+  background-color: #8b4513; /* Marron */
   text-align: right;
   padding: 10px;
   color: #dddddd;
 }
 
-/* Réactivité */
+/* Styles média pour adapter le contenu aux petits écrans */
 @media (max-width: 768px) {
   .main {
     flex-direction: column;
@@ -242,7 +260,7 @@ footer {
   }
 
   .artists-container {
-    grid-template-columns: 1fr; /* Une colonne sur les petits écrans */
+    grid-template-columns: 1fr; /* Change la grille pour une colonne sur les petits écrans */
   }
 
   .artist-content {
@@ -252,6 +270,121 @@ footer {
   #artistImage {
     max-width: 100%; /* L'image prend toute la largeur sur petits écrans */
     margin-right: 0;
-    margin-bottom: 20px; /* Espace entre l'image et la bio sur petits écrans */
+    margin-bottom: 20px; /* Ajoute de l'espace entre l'image et la bio sur petits écrans */
+  }
+}
+/* Styles pour les écrans de moins de 600px (téléphones mobiles) */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  header,
+  nav,
+  .logo {
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .logo img {
+    width: 30px; /* Réduire la taille pour les petits écrans */
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .artists-container {
+    grid-template-columns: 1fr; /* Une seule colonne pour les petits écrans */
+  }
+
+  .artist-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #artistImage {
+    width: 100%; /* L'image prend toute la largeur disponible */
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+
+/* Styles pour les écrans entre 600px et 1024px (tablettes) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  header,
+  nav {
+    padding: 15px;
+  }
+
+  .logo img {
+    width: 35px;
+  }
+
+  nav ul {
+    justify-content: space-around;
+  }
+
+  main {
+    padding: 15px;
+  }
+
+  .artists-container {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Deux colonnes pour les tablettes */
+  }
+
+  .artist-content {
+    flex-direction: row;
+    align-items: start;
+  }
+
+  #artistImage {
+    width: 50%; /* Taille adaptée pour une meilleure visibilité */
+  }
+}
+
+/* Styles pour les écrans de plus de 1024px (ordinateurs de bureau) */
+@media (min-width: 1025px) {
+  /* Tu peux personnaliser ici en ajoutant ou en modifiant des styles spécifiques pour les grands écrans, si nécessaire */
+  header,
+  nav {
+    padding: 20px;
+  }
+
+  .logo img {
+    width: 40px; /* Taille originale pour les grands écrans */
+  }
+
+  nav ul {
+    justify-content: flex-end;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  .artists-container {
+    grid-template-columns: repeat(
+      3,
+      1fr
+    ); /* Trois colonnes pour les grands écrans */
+  }
+
+  .artist-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  #artistImage {
+    width: 300px; /* Taille spécifique pour une bonne visibilité */
+    height: auto;
   }
 }
